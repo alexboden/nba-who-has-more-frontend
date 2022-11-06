@@ -14,6 +14,12 @@ import Stats from "./components/Stats";
 
 function App() {
 	ReactSession.setStoreType("localStorage");
+	
+	const highscore = ReactSession.get("highscore");
+	if (!highscore) {
+		ReactSession.set("highscore", 0);
+	}
+
 	return (
 		<div class='display-flex'>
 
