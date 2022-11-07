@@ -9,7 +9,7 @@ function About() {
 			
 		</p>
 		<p class='fs-5'>
-			 This game will ask you a question about which player has more games with of a certain stat threshold. The players will be randomly selected from the the top 100 players of all time according to <a href="https://www.espn.com/nba/story/_/page/nbarankalltime/greatest-players-ever" >ESPN's list.</a> The data will not be regularly updated so active players stats might be a bit off.
+			 This game will ask you a question about which player has more games with a certain stat threshold. The players will be randomly selected from the the top 100 players of all time according to <a href="https://www.espn.com/nba/story/_/page/nbarankalltime/greatest-players-ever" >ESPN's list.</a> The data will not be regularly updated so active players stats might be a bit off.
 		</p>
     </div>
   );
