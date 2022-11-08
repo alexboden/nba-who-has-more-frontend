@@ -3,7 +3,7 @@ import React from "react";
 import { useNavigate} from "react-router-dom";
 import { ReactSession } from 'react-client-session';
 
-const baseURL = "https://django-nba-backend.herokuapp.com/api/question/new";
+const baseURL = "https://django-nba-backend.herokuapp.com/api/question/n2ew";
 
 function Question() {
 	// This syntax ensures `this` is bound within handleClick. 
@@ -45,8 +45,15 @@ function Question() {
 
 	if (!q) {
 		return (
-		<div>
+			<>
+		<div class="d-flex justify-content-center m-5">
+			<h2>Loading...</h2>
+			<div class="spinner-border spinner-border-lg mx-2" role="status" aria-hidden="true"></div>
 		</div>
+		<div class="d-flex justify-content-center">
+			<h3>You may need to refresh</h3>
+		</div>
+		</>
 	);
 	}
 
