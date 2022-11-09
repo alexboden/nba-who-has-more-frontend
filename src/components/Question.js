@@ -3,7 +3,7 @@ import React from "react";
 import { useNavigate} from "react-router-dom";
 import { ReactSession } from 'react-client-session';
 
-const baseURL = "https://django-nba-backend.herokuapp.com/api/question/n2ew";
+const baseURL = "https://django-nba-backend.herokuapp.com/api/question/new";
 
 function Question() {
 	// This syntax ensures `this` is bound within handleClick. 
